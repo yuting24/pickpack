@@ -1,0 +1,280 @@
+.ti{
+	margin-left: 310px;
+	z-index: 1;
+}
+.cont{
+	margin-top: 200px;
+	font-size: 30px;
+}
+.text{
+	border-color: black;
+	width: 70%;
+	margin-top: 3%;
+	margin-bottom: 30px;
+	margin-left: 10px;
+}
+.title_right{
+	text-align: right;
+	margin-right: 30%;
+	margin-top: 20px;
+}
+.title_left{
+	margin-bottom: 3%;
+}
+.lect_type{
+	text-align: right;
+	margin-right: 22%;
+	font-size: 	20px;	
+}
+.lect2{
+
+}
+.author_img{
+	width: 50px;
+	height: 50px;
+	background-color:black;
+	border-radius: 100%;
+	margin-top: 0px;
+}
+.author_name{
+	z-index: 2;
+	
+	margin-top: -55px;
+	font-size: 17px;
+}
+
+
+.text_hr{
+	width: 72%;
+
+}
+.S2-wbox{
+	width: 60%;
+	height: auto; 
+	padding: 10px 0px 50px 0px;
+	margin-left: 310px;
+}
+.message_BOX{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	/*margin-top: 20px;*/
+	border-radius: 30px;
+	padding:15px 0px;
+}
+.message_top{
+	width: 100%;
+	height: 50px;
+	/*background-color: pink;	*/
+	margin:0 auto;
+	text-align: left;
+}
+.message_bottom{
+	width: 100%;
+	height: auto;
+	/*background-color: yellow;	*/
+	margin:0 auto;
+	
+	letter-spacing: 2px;　
+	
+}
+.message_img{
+	width: 50px;
+	height: 50px;
+	background-color:#9D8189;	
+	border-radius: 100%;
+	display: inline-block;
+}
+.message_img img{
+	width: 100%;
+}
+.message_name{
+	display: inline-block;
+	/*background-color: red;*/
+	vertical-align: top;
+	font-size: 13px;
+	margin-top: 3px;
+	margin-left: 5px;
+}
+.message_star{
+	/*background-color:blue;*/
+	vertical-align: top;
+	font-size: 15px;
+	width: 65px;
+	height: 12px;
+	margin-top: 7px;
+	margin-left: 5px;
+	position: absolute;
+}
+.message_star img{
+	width: 100%;
+	vertical-align: top;
+	position: relative;
+	z-index: 2;
+}
+.FX_M{
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	width: auto;
+	/*background-color: green;*/
+}
+.score_D{/*星星底顏色*/
+	width: 97%;
+	height: 91%;
+	margin:0;
+	transform:translate(-50% ,-50%);
+	left: 50%;
+	top:51%;
+	/*background-color:#D8E6E7;*/
+	position: relative;
+	z-index: 1;
+	position: absolute;
+}
+.score_C{
+	width: 97%;
+	height: 90%;
+	margin:0;
+	transform:translateY(-50%);
+	left: 0%;
+	top:51%;
+	background-color:#fff712;
+	position: relative;
+	z-index: 2;
+}
+.message_like{
+	width: 30px;
+	height: 30px;
+	/*background-color: red;*/
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	float: right;
+	right:10px;
+	top:5px;
+	background-image: url('../icon/adlike.png');
+	background-size: cover;
+	cursor: pointer;
+}
+.message_w{
+	text-align: left;
+	/*background-color: red;*/
+	padding: 0 5px;
+	margin-top: 20px;
+	color:#59616b;
+	font-size: 15px;
+}
+.message_w2{
+	text-align: right;
+	/*background-color: red;*/
+	padding: 0 58px;
+	margin-top: 0px;
+	font-size: 10px;
+	color:#6E7783;
+	margin-top: 7px;
+}
+.write{
+	width: 450px;
+	height: auto;
+	background-color:#FFFFFF;
+	position: fixed;
+	transform:translate(-50% ,-50%);
+	left: 50%;
+	top:50%;
+	z-index: 100;
+	border-radius: 10px;
+	padding:20px 20px;
+	font-size: 15px;  
+	font-family:'Noto Sans Japanese', sans-serif;
+	text-align: center;
+}
+.write_st{
+	width: 70%;
+	height:auto;
+	/*background-color: red;*/
+	margin:30px auto; 
+}
+.score_F{/*星星底顏色*/
+	width: 97%;
+	height: 91%;
+	margin:0;
+	transform:translate(-50% ,-50%);
+	left: 50%;
+	top:51%;
+	background-color:#D8E6E7;
+	position: relative;
+	z-index: 1;
+	/*position: absolute;*/
+}
+.write_st img{
+	margin-top: -80px;
+	position: relative;
+	z-index: 3;
+}
+.score_E{
+	width: 97%;
+	height: 90%;
+	margin:0;
+	transform:translateY(-50%);
+	left: 0%;
+	top:51%;
+	background-color:#fff712;
+	position: relative;
+	z-index: 2;
+}
+.in_mass input[type="email"]{
+	width:300px;height:30px;padding:5px 15px;
+	border-radius:5px;/*設圓角*/
+	border:2px solid #e2e2e2; /*設圓角會有陰影再用一次border可消除*/
+	outline: none;
+	font-size:13px;		
+	margin-top: -10px;
+}
+.in_mass input[type="email"]:focus{
+		border-color:#6E7783;
+}
+.in_mass textarea{
+	width:300px;height:100px;padding:5px 15px;
+	border-radius:5px;/*設圓角*/
+	border:2px solid #e2e2e2; /*設圓角會有陰影再用一次border可消除*/
+	outline: none;
+	font-size:13px;			
+	margin-top: -10px;
+}
+.in_mass textarea:focus{
+	border-color:#6E7783;
+}
+#OKK{
+  display:none; /*隱藏原本按鈕*/
+}
+.OK_massage{/*送出*/
+	text-align:center;
+	width:300PX;height:45PX;
+	background-color:#FFFFFF;
+	border-style:solid;/*框線樣式*/
+	border-width:2px;
+	border-radius:5px;
+	border-color:black;
+	line-height:45px;
+	font-family:sans-serif;	/*字體*/
+	position: relative;
+	margin: 0 auto; 
+	margin-left: 10px;
+}
+.OK_massage:hover{
+	cursor:pointer;
+	background-color:black;
+	color:#FFFFFF;
+}
+.close_write{
+	/*background-color: red;*/
+	display: inline-block;
+	float: right;
+	font-size: 25px;
+	margin-top: -10px;
+	color: #e0e0e0;
+}
+.close_write:hover{
+	cursor: pointer;
+	color: #b7b6b6;
+}
