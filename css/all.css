@@ -1,0 +1,14 @@
+.container {
+    overflow: hidden;
+  }
+  
+  .item {
+    display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+ 

@@ -1,0 +1,22 @@
+body{
+ font-family: '微軟正黑體'; 
+ 
+}
+.login{
+    margin-top: 15%;
+   
+}
+
+/*註冊的上傳圖片*/
+.file {
+    visibility: hidden;
+    position: absolute;
+  }
+
+/*追蹤與粉絲名單頭像*/
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
